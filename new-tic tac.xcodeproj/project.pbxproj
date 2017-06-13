@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0481FE6D1E79AA7600C33FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB0901E79756700341C9E /* ViewController.m */; };
 		04BBB08B1E79756700341C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB08A1E79756700341C9E /* main.m */; };
 		04BBB08E1E79756700341C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB08D1E79756700341C9E /* AppDelegate.m */; };
 		04BBB0911E79756700341C9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB0901E79756700341C9E /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		04BBB0991E79756700341C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB0971E79756700341C9E /* LaunchScreen.storyboard */; };
 		04BBB0A41E79756B00341C9E /* new_tic_tacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB0A31E79756B00341C9E /* new_tic_tacTests.m */; };
 		04BBB0AF1E79756B00341C9E /* new_tic_tacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB0AE1E79756B00341C9E /* new_tic_tacUITests.m */; };
+		04BBB0BD1E798A5800341C9E /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB0BC1E798A5800341C9E /* cross.png */; };
+		04BBB0BF1E798A7A00341C9E /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB0BE1E798A7A00341C9E /* round.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		04BBB0AA1E79756B00341C9E /* new-tic tacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-tic tacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BBB0AE1E79756B00341C9E /* new_tic_tacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = new_tic_tacUITests.m; sourceTree = "<group>"; };
 		04BBB0B01E79756C00341C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BBB0BC1E798A5800341C9E /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		04BBB0BE1E798A7A00341C9E /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				04BBB08D1E79756700341C9E /* AppDelegate.m */,
 				04BBB08F1E79756700341C9E /* ViewController.h */,
 				04BBB0901E79756700341C9E /* ViewController.m */,
+				04BBB0BE1E798A7A00341C9E /* round.png */,
+				04BBB0BC1E798A5800341C9E /* cross.png */,
 				04BBB0921E79756700341C9E /* Main.storyboard */,
 				04BBB0951E79756700341C9E /* Assets.xcassets */,
 				04BBB0971E79756700341C9E /* LaunchScreen.storyboard */,
@@ -248,6 +255,8 @@
 			files = (
 				04BBB0991E79756700341C9E /* LaunchScreen.storyboard in Resources */,
 				04BBB0961E79756700341C9E /* Assets.xcassets in Resources */,
+				04BBB0BF1E798A7A00341C9E /* round.png in Resources */,
+				04BBB0BD1E798A5800341C9E /* cross.png in Resources */,
 				04BBB0941E79756700341C9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481FE6D1E79AA7600C33FAF /* ViewController.m in Sources */,
 				04BBB0AF1E79756B00341C9E /* new_tic_tacUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +517,7 @@
 				04BBB0B51E79756C00341C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BBB0B61E79756C00341C9E /* Build configuration list for PBXNativeTarget "new-tic tacTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				04BBB0B81E79756C00341C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BBB0B91E79756C00341C9E /* Build configuration list for PBXNativeTarget "new-tic tacUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				04BBB0BB1E79756C00341C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
